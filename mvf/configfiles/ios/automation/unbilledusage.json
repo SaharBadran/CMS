@@ -1,0 +1,125 @@
+{
+                "serviceUsageVBO": {
+                    "accountId": "111302037",
+                    "type": "mobile",
+                    "billDetails": {
+                        "billCycleStartDate": "2018-09-10",
+                        "billCycleEndDate": "2018-10-09",
+                        "currentSummary": null,
+                        "lastSummary": null
+                    },
+                    "usageAccounts": [{
+                        "details": {
+                            "msisdn": user.msisdn,
+                            "marketCode": "MMC",
+                            "amount": "0.00",
+                            "unitOfMeasure": "EUR",
+                            "billDate": "2018-09-10",
+                            "lastUpdateDate": null
+                        },
+                        "productSpecification": {
+                            "tariffDetails": {
+                                "name": "Vodafone Red+ Allnet ohne Smartphone",
+                                "code": "REDPLVOS",
+                                "description": "Red Tariff"
+                            }
+                        },
+                        "paymentGroup": [{
+                            "description": "Telefonieren",
+                            "payment": [{
+                                "category": "Aus dem deutschen Vodafone-Netz",
+                                "amount": "0.00",
+                                "previousAmount": "0.00",
+                                "unitOfMeasure": "EUR",
+                                "startDate": "2018-09-10",
+                                "endDate": "2018-10-09",
+                                "lastUpdateDate": null
+                            }, {
+                                "category": "Im Ausland",
+                                "amount": "0.00",
+                                "previousAmount": "0.00",
+                                "unitOfMeasure": "EUR",
+                                "startDate": "2018-09-10",
+                                "endDate": "2018-10-09",
+                                "lastUpdateDate": null
+                            }]
+                        }, {
+                            "description": "Daten/SMS/MMS/Fax",
+                            "payment": [{
+                                "category": "Aus dem deutschen Vodafone-Netz",
+                                "amount": "0.00",
+                                "previousAmount": "0.00",
+                                "unitOfMeasure": "EUR",
+                                "startDate": "2018-09-10",
+                                "endDate": "2018-10-09",
+                                "lastUpdateDate": null
+                            }, {
+                                "category": "Im Ausland",
+                                "amount": "0.00",
+                                "previousAmount": "0.00",
+                                "unitOfMeasure": "EUR",
+                                "startDate": "2018-09-10",
+                                "endDate": "2018-10-09",
+                                "lastUpdateDate": null
+                            }]
+                        }],
+                        "usageGroup": [{
+                            "container": "SMS",
+                            "usage": [{
+                                "name": "Nationale Flat in alle deutschen Netze und im EU-Ausland",
+                                "description": "Nationale Flat in alle deutschen Netze und im EU-Ausland",
+                                "type": "limited",
+                                "rollOverIndicator": false,
+                                "remaining": "0",
+                                "used": "24",
+                                "total": "0",
+                                "unitOfMeasure": "SMS",
+                                "lastUpdateDate": "2018-09-18T04:58:56",
+                                "endDate": null
+                            }]
+                        }, {
+                            "container": "Minuten",
+                            "usage": [{
+                                "name": "Nationale Flat in alle deutschen Netze und im EU-Ausland",
+                                "description": "Nationale Flat in alle deutschen Netze und im EU-Ausland",
+                                "type": "limited",
+                                "rollOverIndicator": false,
+                                "remaining": "0",
+                                "used": "1",
+                                "total": "0",
+                                "unitOfMeasure": "Minuten",
+                                "lastUpdateDate": "2018-09-15T10:45:00",
+                                "endDate": null
+                            }]
+                        }, {
+                            "container": "Daten",
+                            "usage": [{
+                                "name": "Datenvolumen Inland",
+                                "description": "Datenvolumen Inland",
+                                "type": "limited",
+                                "rollOverIndicator": false,
+                                "remaining": "102398188",
+                                "used": "2835",
+                                "total": "102401024",
+                                "unitOfMeasure": "MB",
+                                "lastUpdateDate": "2018-09-18T11:19:37",
+                                "endDate": null
+                            }]
+                        }, {
+                            "container": "Datenvolumen Europa",
+                            "usage": [{
+                                "name": "Datenvolumen Europa",
+                                "description": "Daten",
+                                "type": "limited",
+                                "rollOverIndicator": false,
+                                "remaining": "10240",
+                                "used": "0",
+                                "total": "10240",
+                                "unitOfMeasure": "MB",
+                                "lastUpdateDate": "2018-09-18T11:19:37",
+                                "endDate": null
+                            }]
+                        }]
+                    }]
+                }
+            }

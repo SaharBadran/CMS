@@ -1,0 +1,64 @@
+{
+    subscriptionVBO =     {
+        accountId = 103681111;
+        subscriptions =         (
+                        {
+                details =                 {
+                    marketCode = MMC;
+                    msisdn = 491624113644;
+                    subType = TN;
+                };
+                services =                 {
+                    authorisationServicesList =                     (
+                        SSNConsumer,
+                        isDRO,
+                        "can_do_red+",
+                        UpdateRed3,
+                        canDoEJM,
+                        EJM
+                    );
+                    hasMNPBarringSoc = 0;
+                    hasUltraCard = 0;
+                    hasZuhauseProduct = 0;
+                    isSharingGroupMember = 0;
+                    isSharingGroupOwner = 0;
+                    socList =                     (
+                        VFGROUP,
+                        "JOYN_OPEN",
+                        MBOXANSP,
+                        DEEZMARK,
+                        DASROW1D,
+                        SNSUB,
+                        "ADV_GRATI",
+                        "VF_DASRP",
+                        RED3GBLTE,
+                        MAILBOX,
+                        100GBPROB,
+                        100GBPROA,
+                        PPECONT01,
+                        100GBBARR,
+                        RED3DATXL,
+                        "MESS_FLAT",
+                        RED3XL4GB,
+                        RFLATEUUS,
+                        LTE225,
+                        "RED3_09GB",
+                        RETDEP03,
+                        VOLTE,
+                        ELIGMULTI,
+                        CCSMARK00,
+                        SPEEDUP6G,
+                        5GPAY,
+                        RFLATMONT,
+                        DAT1GB1M,
+                        APPVOLCRE,
+                        BAR4GSAT,
+                        SOCIALWM,
+                        PAGAME
+                    );
+                };
+            }
+        );
+        type = mobile;
+    };
+}

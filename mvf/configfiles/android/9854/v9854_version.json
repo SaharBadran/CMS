@@ -1,0 +1,16 @@
+{
+  "cms-guid": "030D4324276B4C4DA00B6F7D246D6803",
+  "cms-id": 1306,
+  "cms-version": 1,
+  "main-version": 0,
+  "items": [
+    {
+      "version": "0.1.2.18",
+      "cms-guid": "34D2131661994E099D9A11F0DFB3B1E4",
+      "cms-id": 1322,
+      "id": "config",
+      "resource": "https://am-vodafone.github.io/cms/mvf/configfiles/android/9854/v9854_config.json"
+    }
+  ],
+  "release": "0.1.12.894"
+}

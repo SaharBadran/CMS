@@ -1,0 +1,591 @@
+ {
+  "comingSoonHotline": "0800505442",
+  "BEW": {
+    "enjoyMore": {
+      "bewEnabled": true,
+      "expanded": true,
+      "show_more": "weniger Meher",
+      "show_less": "weniger lesen",
+      "bew_isMandatory": false,
+      "headline": "Headline two rows Angebot Menna",
+      "subHeadline": "Section Sub Title 16px distance to bottom",
+      "btn1_title": "Abschicken & aktivieren",
+      "footer": "Ich kann meine Einwilligung jederzeit ganz oder teilweise mit Wirkung für die Zukunft widerrufen.",
+      "ADV_title": "Ja, ich gebe meine Einwilligung telefonisch, per E-Mail, Messenger, SMS und MMS über Angebote informiert zu werden.",
+      "DEV_title": "Ja, ich gebe meine Einwilligung zum Austausch meiner Bestandsdaten. ",
+      "bew_image_filename": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQqNOELLE_6fydLj1gT3vY_aoBCyxcK71sMAUoOpS1Sz4F_Ikj8"
+    },
+    "contractCancellation": {
+      "bewEnabled": true,
+      "expanded": false,
+      "show_more": "More Contract",
+      "show_less": "Less Contract",
+      "bew_isMandatory": false,
+      "headline": "HedLine For contract Cancellation",
+      "subHeadline": "SubLine For contract Cancellation",
+      "btn1_title": "Button One Title contract",
+      "footer": "This is the footer for contract Cancellation",
+      "ADV_title": "ADV Title contract Cancellation",
+      "DEV_title": "DEV Title contract Cancellation",
+      "bew_image_filename": "https://cdn.vodafone.co.uk/en/assets/images/extralarge/IMG_VeryMe_FestiveBanner.jpg"
+    }
+  },
+  "homeNudge": {
+    "enable": true,
+    "cachingTime": 2160,
+    "offerMboxs": [
+      {
+        "priority": 1,
+        "mboxName": "mbox_mv_app_updateEmailAddress_test2"
+      },
+      {
+        "priority": 2,
+        "mboxName": "mbox_mv_app_updateBEW_test2"
+      }
+    ]
+  },
+  "permanentRedPlusTab": {
+    "btn1_enable": true,
+    "btn1_link": "https://www.vodafone.de/privat/redplus/smartphones-tarife.html?simOnly=1&c_id=app_cadd_fq0_c_redplustab&j_id=AppConPerA01V%7CNonNon000&b_id=1653&void=33333887&forApp=true",
+    "btn1_title": "Online bestellen",
+    "btn2_enable": true,
+    "btn2_link": "08006649395",
+    "btn2_title": "Kostenlos anrufen",
+    "image_filename": "http://media.vodafone.de/www/images/app/mein-callya-100mb/Detail_mein-callya-100mb-0-.jpg"
+  },
+  "targetCaching": {
+    "enable": true,
+    "version": 3,
+    "interval": 1,
+    "prepaidMboxCount": 5,
+    "postpaidMboxCount": 5,
+    "gigaLivePrepaidMboxCount": 10,
+    "gigaLivePostpaidMboxCount": 10,
+    "prepaidDefaultMboxCount": 4,
+    "postpaidDefaultMboxCount": 0,
+    "fixedNetMboxCount": 5,
+    "gigaLiveFixedNetMboxCount": 10,
+    "fixedNetDefaultMboxCount": 4,
+    "cableMboxCount": 10,
+    "gigaLiveCableMboxCount": 10,
+    "cableDefaultMboxCount": 10
+  },
+  "hero": {
+    "enable": true,
+    "version": 1,
+    "cachingtime": 24,
+    "showNextInterval": 1
+  },
+  "vov": {
+    "highPriorityCardTimeSpan": 6,
+    "allCardTimeSpan": 2,
+    "repeatCount": 1,
+    "prepaid": {
+      "numberOfVov": 8,
+      "items": [
+        {
+          "id": "Target",
+          "order": 7,
+          "priority": 6,
+          "mboxName": "mbox_mcy_app_offer_vov_2",
+          "staticOfferID": ""
+        },
+        {
+          "id": "Target",
+          "order": 6,
+          "priority": 5,
+          "mboxName": "mbox_mcy_app_offer_vov_1",
+          "staticOfferID": ""
+        },
+        {
+          "id": "Target",
+          "order": 5,
+          "priority": 4,
+          "mboxName": "mbox_mcy_app_offer_vov",
+          "staticOfferID": ""
+        },
+        {
+          "id": "Pontis",
+          "order": 4,
+          "priority": 3,
+          "mboxName": "",
+          "staticOfferID": ""
+        },
+        {
+          "id": "100MB",
+          "order": 3,
+          "priority": 2,
+          "mboxName": "",
+          "staticOfferID": "prepaid100MB"
+        },
+        {
+          "id": "PAC",
+          "order": 2,
+          "priority": 1,
+          "mboxName": "",
+          "staticOfferID": "PAC"
+        },
+        {
+          "id": "Survey4G",
+          "order": 1,
+          "priority": 0,
+          "mboxName": "prepaidSurvey4G",
+          "staticOfferID": ""
+        }
+      ]
+    },
+    "postpaid": {
+      "numberOfVov": 10,
+      "items": [
+        {
+          "id": "GigaBoost",
+          "order": 10,
+          "priority": 1,
+          "mboxName": "",
+          "staticOfferID": "GigaBoost"
+        },
+        {
+          "id": "Survey4G",
+          "order": 1,
+          "priority": 8,
+          "mboxName": "",
+          "staticOfferID": "postpaidSurvey4G"
+        },
+        {
+          "id": "Roaming",
+          "order": 2,
+          "priority": 7,
+          "mboxName": "",
+          "staticOfferID": "Roaming"
+        },
+        {
+          "id": "Redeem_Voucher",
+          "order": 3,
+          "priority": 6,
+          "mboxName": "mbox_mv_app_voucher_redeem",
+          "staticOfferID": ""
+        },
+        {
+          "id": "YOLO_high",
+          "order": 4,
+          "priority": 5,
+          "mboxName": "mbox_mvf_app_offer_yolo_high",
+          "staticOfferID": ""
+        },
+        {
+          "id": "VVL",
+          "order": 8,
+          "priority": 1,
+          "mboxName": "mbox_mv_app_vvl_contract",
+          "staticOfferID": ""
+        },
+        {
+          "id": "Target",
+          "order": 5,
+          "priority": 4,
+          "mboxName": "mbox_mv_app_offer_vov",
+          "staticOfferID": ""
+        },
+        {
+          "id": "Target",
+          "order": 6,
+          "priority": 3,
+          "mboxName": "mbox_mv_app_offer_vov_1",
+          "staticOfferID": ""
+        },
+        {
+          "id": "Target",
+          "order": 7,
+          "priority": 2,
+          "mboxName": "mbox_mv_app_offer_vov_2",
+          "staticOfferID": ""
+        },
+        {
+          "id": "YOLO_low",
+          "order": 9,
+          "priority": 0,
+          "mboxName": "mbox_mvf_app_offer_yolo_low",
+          "staticOfferID": ""
+        },
+        {
+          "id": "100MB",
+          "order": 10,
+          "priority": 11,
+          "mboxName": "",
+          "staticOfferID": "postpaid100MB"
+        }
+      ]
+    },
+    "fixednet": {
+      "items": [
+        {
+          "id": "Target",
+          "order": 1,
+          "priority": 9,
+          "staticOfferID": "",
+          "mboxName": "mbox_fixednet_app_offer_vov_1"
+        },
+        {
+          "id": "Target",
+          "order": 2,
+          "priority": 8,
+          "mboxName": "mbox_fixednet_app_offer_vov_2",
+          "staticOfferID": ""
+        },
+        {
+          "id": "Target",
+          "order": 3,
+          "priority": 7,
+          "mboxName": "mbox_fixednet_app_offer_vov_3",
+          "staticOfferID": ""
+        },
+        {
+          "id": "Target",
+          "order": 4,
+          "priority": 6,
+          "mboxName": "mbox_fixednet_app_offer_vov_4",
+          "staticOfferID": ""
+        }
+      ]
+    },
+    "cable": {
+      "items": [
+        {
+          "id": "Target",
+          "order": 1,
+          "priority": 9,
+          "staticOfferID": "",
+          "mboxName": "mbox_cable_app_offer_vov_1"
+        },
+        {
+          "id": "Target",
+          "order": 2,
+          "priority": 8,
+          "mboxName": "mbox_cable_app_offer_vov_2",
+          "staticOfferID": ""
+        },
+        {
+          "id": "Target",
+          "order": 3,
+          "priority": 7,
+          "mboxName": "mbox_cable_app_offer_vov_3",
+          "staticOfferID": ""
+        },
+        {
+          "id": "Target",
+          "order": 4,
+          "priority": 6,
+          "mboxName": "mbox_cable_app_offer_vov_4",
+          "staticOfferID": ""
+        }
+      ]
+    }
+  },
+  "campaigns": [
+    {
+      "id": "prepaid100MB",
+      "type": "",
+      "banner_image_filename": "",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "banner_large_image_filename": "https://i2-prod.mirror.co.uk/incoming/article16243072.ece/ALTERNATES/s1200b/0_Tottenham-Hotspur-v-Liverpool-UEFA-Champions-League.jpg",
+      "object": {
+        "title": "Das beste TV-Erlebnis für zuhause und unterwegs − für nur 4,99 € im Monat",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "Das ist GigaTV: bis zu 40 Sender in HD, 62 Sender in SD, persönliche Sender-Empfehlungen, Video on Demand und vieles mehr.<br><br>Als Mobilfunk-Kunde bekommst Du jeden Monat 5 € Rabatt und 5 GB Extra-Datenvolumen. So zahlst Du in den ersten 12 Monaten nur 4,99 €. Und kannst auch unterwegs sorgenfrei streamen.<br><br>Du erreichst uns montags bis freitags von 8 bis 20 Uhr. Und samstags von 9 bis 18 Uhr. ",
+        "image_filename": "http://media.vodafone.de/www/images/app/mcc_3520_gigatv/Detail_gigatv-0-.jpg",
+        "link": "https://www.google.com",
+        "btn1_enable": true,
+        "btn1_link": "080072426625",
+        "btn1_title": "Jetzt kostenlos anrufen",
+        "btn1_type": "call",
+        "btn2_enable": true,
+        "btn2_type": "browser_url_internal",
+        "btn2_link": "https://zuhauseplus.vodafone.de/verfuegbarkeitspruefung/?tab=tv&c_id=app_mcc_3520_5euro_5gb&j_id=AppConPerA01V|NonNon000&b_id=1653&void=33333887&forApp=tru",
+        "btn2_title": "Zum Angebot"
+      },
+      "validityDate": "",
+      "vov": {
+        "headline_text": "Wir schenkenDir 100 MB Highspeed-Datenvolumen",
+        "subtitle_text": "Hol Dir Dein App-Geschenk jetzt ab.",
+        "color_text": "#e83e0a",
+        "text_enabled": true,
+        "image_url": "http://media.vodafone.de/www/images/app/gigagutscheine/VoV_gigagutschein_no_text-0-.jpg"
+      }
+    },
+    {
+      "id": "Roaming",
+      "type": "",
+      "banner_image_filename": "",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "object": {
+        "title": "Das beste TV-Erlebnis für zuhause und unterwegs − für nur 4,99 € im Monat",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "Das ist GigaTV: bis zu 40 Sender in HD, 62 Sender in SD, persönliche Sender-Empfehlungen, Video on Demand und vieles mehr.<br><br>Als Mobilfunk-Kunde bekommst Du jeden Monat 5 € Rabatt und 5 GB Extra-Datenvolumen. So zahlst Du in den ersten 12 Monaten nur 4,99 €. Und kannst auch unterwegs sorgenfrei streamen.<br><br>Du erreichst uns montags bis freitags von 8 bis 20 Uhr. Und samstags von 9 bis 18 Uhr. ",
+        "image_filename": "http://media.vodafone.de/www/images/app/mcc_3520_gigatv/Detail_gigatv-0-.jpg",
+        "link": "https://www.google.com",
+        "btn1_enable": true,
+        "btn1_link": "080072426625",
+        "btn1_title": "Jetzt kostenlos anrufen",
+        "btn1_type": "call",
+        "btn2_enable": true,
+        "btn2_type": "browser_url_internal",
+        "btn2_link": "https://zuhauseplus.vodafone.de/verfuegbarkeitspruefung/?tab=tv&c_id=app_mcc_3520_5euro_5gb&j_id=AppConPerA01V|NonNon000&b_id=1653&void=33333887&forApp=tru",
+        "btn2_title": "Zum Angebot"
+      },
+      "validityDate": "",
+      "vov": {
+        "headline_text": "Herzlich Willkommen im Reiseland",
+        "subtitle_text": "Willkommen in Deinem Reiseland",
+        "color_text": "#ffffff",
+        "text_enabled": true,
+        "image_url": "http://media.vodafone.de/www/images/app/mcc_9007_AB-Test/VoV_bc-194_abtest_ohne-0-.jpg"
+      }
+    },
+    {
+               "id": "redPlusAddMember",
+               "type": "angebote_campaign",
+               "banner_image_filename": "http://media.vodafone.de/www/images/app//VoV_-0-.",
+               "new_banner_image_filename": "http://media.vodafone.de/www/images/app//VoVBadge_-0-.",
+               "new_banner_headline": "",
+               "new_banner_subheadline": "",
+               "tail_s_image_filename": "http://media.vodafone.de/www/images/app//TailS_-0-.",
+               "tail_m_image_filename": "http://media.vodafone.de/www/images/app//TailM_-0-.",
+               "tail_l_image_filename": "http://media.vodafone.de/www/images/app//TailL_-0-.",
+               "object": {
+                   "title": "",
+                   "subtitle_enable": false,
+                   "subTitle": "",
+                   "text": "",
+                   "image_filename": "http://media.vodafone.de/www/images/app//Detail_-0-.",
+                   "btn1_enable": true,
+                   "btn1_link": "https://www.vodafone.de/privat/redplus/smartphones-tarife.html?simOnly=1&c_id=app_cadd_fq0_c_redplustab&j_id=AppConPerA01V%7CNonNon000&b_id=1653&void=33333887&forApp=true",
+                   "btn1_title": "Zeig mir das Red+ Angebot",
+                   "btn1_type": "browser_url_internal",
+                   "btn1_parameter": [
+            
+            ],
+                   "btn2_enable": true,
+                   "btn2_link": "08006649125",
+                   "btn2_title": "Kostenlos anrufen",
+                   "btn2_type": "call",
+                   "btn2_parameter": [
+            
+            ],
+                   "btn3_enable": false,
+                   "btn3_link": "mva://shopfinder",
+                   "btn3_title": "Zum Shopfinder",
+                   "btn3_type": "deeplink",
+                   "btn3_parameter": [
+            
+            ]   
+          } 
+   
+    },
+    {
+      "id": "prepaidSurvey4G",
+      "type": "browser_url_internal",
+      "banner_image_filename": "home-vov-survey4g",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "object": {
+        "title": "",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "",
+        "image_filename": "",
+        "link": "",
+        "btn1_enable": true,
+        "btn1_link": "",
+        "btn1_title": "",
+        "btn1_type": "",
+        "btn2_enable": true,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": ""
+      },
+      "validityDate": "",
+      "vov": {
+        "headline_text": "Du surfst jetzt einen Tag mit 90 GB extra.",
+        "subtitle_text": "Mit der GigaGarantie.",
+        "color_text": "#000000",
+        "text_enabled": true,
+        "image_url": "http://media.vodafone.de/www/images/app/mcc_9007_AB-Test/VoV_bc-194_abtest_ohne-0-.jpg"
+      }
+    },
+    {
+      "id": "postpaidSurvey4G",
+      "type": "call",
+      "banner_image_filename": "home-vov-survey4g",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "object": {
+        "title": "",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "",
+        "image_filename": "",
+        "link": "55555",
+        "btn1_enable": true,
+        "btn1_link": "",
+        "btn1_title": "",
+        "btn1_type": "",
+        "btn2_enable": true,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": ""
+      },
+      "validityDate": "",
+      "vov": {
+        "headline_text": "Du surfst jetzt einen Tag mit 90 GB extra.",
+        "subtitle_text": "Mit der GigaGarantie.",
+        "color_text": "#1adcb3",
+        "text_enabled": true,
+        "image_url": "http://media.vodafone.de/www/images/app/gigagutscheine/VoV_gigagutschein_no_text-0-.jpg"
+      }
+    },
+    {
+      "id": "postpaid100MB",
+      "type": "",
+      "banner_image_filename": "vov100MBPostpaid",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "object": {
+        "title": "",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "",
+        "image_filename": "",
+        "link": "",
+        "btn1_enable": true,
+        "btn1_link": "",
+        "btn1_title": "",
+        "btn1_type": "",
+        "btn2_enable": true,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": ""
+      },
+      "validityDate": "",
+      "vov": {
+        "headline_text": "Wir haben Dir 100 MB Highspeed-Datenvolumen geschenkt",
+        "subtitle_text": "Weil Du die MeinVodafone-App nutzt",
+        "color_text": "#1837fa",
+        "text_enabled": true,
+        "image_url": "http://media.vodafone.de/www/images/app/mcc_9007_AB-Test/VoV_bc-194_abtest_ohne-0-.jpg"
+      }
+    },
+    {
+      "id": "GigaBoost",
+      "type": "",
+      "banner_image_filename": "GigaBoost_vov",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "object": {
+        "title": "",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "",
+        "image_filename": "",
+        "link": "",
+        "btn1_enable": true,
+        "btn1_link": "",
+        "btn1_title": "",
+        "btn1_type": "",
+        "btn2_enable": true,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": ""
+      },
+      "validityDate": "",
+      "vov": {
+        "headline_text": "GigaBoost",
+        "subtitle_text": "Mit der GigaBoost surfst Du 1 Tag mit Extra-Datenvolumen (90 GB).",
+        "color_text": "",
+        "text_enabled": true,
+        "image_url": "http://media.vodafone.de/www/images/app/gigagutscheine/VoV_gigagutschein_no_text-0-.jpg"
+      }
+    },
+    {
+      "id": "PAC",
+      "type": "angebote_campaign",
+      "banner_image_filename": "GigaBoost_vov",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "object": {
+        "title": "",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "",
+        "image_filename": "",
+        "link": "",
+        "btn1_enable": true,
+        "btn1_link": "",
+        "btn1_title": "",
+        "btn1_type": "",
+        "btn2_enable": true,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": ""
+      },
+      "validityDate": "",
+      "vov": {
+        "headline_text": "Dein Tarif oder eine deiner Optionen sind",
+        "subtitle_text": "Lad jetzt %s € auf.",
+        "color_text": "#000000",
+        "text_enabled": true,
+        "image_url": "http://media.vodafone.de/www/images/app/mcc_9007_AB-Test/VoV_bc-194_abtest_ohne-0-.jpg"
+      }
+    },
+    {
+      "id": "FallBack",
+      "type": "deeplink",
+      "banner_image_filename": "",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "object": {
+        "title": "",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "",
+        "image_filename": "",
+        "link": "https://www.vodafone.de/meinvodafone/app/offer",
+        "btn1_enable": true,
+        "btn1_link": "",
+        "btn1_title": "",
+        "btn1_type": "",
+        "btn2_enable": true,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": ""
+      },
+      "validityDate": "",
+      "vov": {
+        "headline_text": "Schau spater nochmal rein.",
+        "subtitle_text": "Dein Angebot kann gerade nicht geladn werden.",
+        "color_text": "#ffffff",
+        "text_enabled": true,
+        "image_url": "http://media.vodafone.de/www/images/app/gigagutscheine/VoV_gigagutschein_no_text-0-.jpg"
+      }
+    }
+  ]
+}

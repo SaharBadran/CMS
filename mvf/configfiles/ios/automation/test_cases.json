@@ -1,0 +1,149 @@
+{
+  "testCases": [
+    {
+      "name": "Tobi_Help_3Cells",
+      "cmsFilesPaths": [
+        {
+          "fileID": "tobi",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/TobiFeaturesFiles/Tobi_Help_3Cells.json"
+        }
+      ],
+      "apiFilePaths": [
+        {
+          "fileID": "xxx",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/index.json"
+        }
+      ]
+    },
+    {
+      "name": "Tobi_Help_2Cells",
+      "cmsFilesPaths": [
+        {
+          "fileID": "tobi",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/TobiFeaturesFiles/Tobi_Help_2Cells.json"
+        }
+      ],
+      "apiFilePaths": [
+        {
+          "fileID": "xxx",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/index.json"
+        }
+      ]
+    },
+    {
+      "name": "Tobi_Help_4Cells",
+      "cmsFilesPaths": [
+        {
+          "fileID": "tobi",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/TobiFeaturesFiles/Tobi_Help_4Cells.json"
+        }
+      ],
+      "apiFilePaths": [
+        {
+          "fileID": "xxx",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/index.json"
+        }
+      ]
+    },
+    {
+      "name": "Tobi_CallBack_E2E",
+      "cmsFilesPaths": [
+        {
+          "fileID": "tobi",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/TobiFeaturesFiles/Tobi_CallBack_E2E.json"
+        }
+      ],
+      "apiFilePaths": [
+        {
+          "fileID": "xxx",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/index.json"
+        }
+      ]
+    },
+    {
+      "name": "test2",
+      "cmsFilesPaths": [
+        {
+          "fileID": "home",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/test_home.json"
+        },
+        {
+          "fileID": "menu",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/test_menu.json"
+        },
+        {
+          "fileID": "services",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/test_services.json"
+        }
+      ],
+      "apiFilePaths": [
+        {
+          "fileID": "Dublin_Index_Mobile",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/index.json"
+        },
+         {
+           "fileID": "NIL_UnbilledUsage_Post",
+           "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/index.json"
+         }
+      ]
+    },
+    {
+      "name": "test3",
+      "cmsFilesPaths": [
+        {
+          "fileID": "home",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/test_home.json"
+        },
+        {
+          "fileID": "menu",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/test_menu.json"
+        },
+        {
+          "fileID": "services",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/test_services.json"
+        }
+      ],
+      "apiFilePaths": [
+        {
+          "fileID": "Dublin_Index_Mobile",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/index.json"
+        },
+         {
+           "fileID": "NIL_UnbilledUsage_Post",
+           "filepath": "https://git.getsandbox.com:443/automation-ucm.git/api/enterprise-resources/core/bss/sub-nil/mobile/payment/service-usages/subscriptions/{msisdn}/unbilled-usage"
+         },
+         {
+           "fileID": "Nil_SubscriberDetails_Mobile",
+           "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/subscriberdetails.json"
+         }
+      ]
+    },
+    {
+      "name": "test4",
+      "cmsFilesPaths": [
+        {
+          "fileID": "home",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/test_home.json"
+        },
+        {
+          "fileID": "menu",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/test_menu.json"
+        },
+        {
+          "fileID": "services",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/test_services.json"
+        }
+      ],
+      "apiFilePaths": [
+        {
+          "fileID": "Dublin_Index_Mobile",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/index.json"
+        },
+        {
+          "fileID": "NIL_UnbilledUsage_Post",
+          "filepath": "https://am-vodafone.github.io/cms/mvf/configfiles/ios/automation/unbilledusage.json"
+        }
+      ]
+    }
+  ]
+}

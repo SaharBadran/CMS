@@ -1,0 +1,591 @@
+{
+  "comingSoonHotline": "0800505442",
+  "BEW": {
+    "enjoyMore": {
+      "bewEnabled": true,
+      "expanded": true,
+      "show_more": "weniger Meher",
+      "show_less": "weniger lesen",
+      "bew_isMandatory": false,
+      "headline": "Headline two rows Angebot Menna",
+      "subHeadline": "Section Sub Title 16px distance to bottom",
+      "btn1_title": "Abschicken & aktivieren",
+      "footer": "Ich kann meine Einwilligung jederzeit ganz oder teilweise mit Wirkung für die Zukunft widerrufen.",
+      "ADV_title": "Ja, ich gebe meine Einwilligung telefonisch, per E-Mail, Messenger, SMS und MMS über Angebote informiert zu werden.",
+      "DEV_title": "Ja, ich gebe meine Einwilligung zum Austausch meiner Bestandsdaten. ",
+      "bew_image_filename": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQqNOELLE_6fydLj1gT3vY_aoBCyxcK71sMAUoOpS1Sz4F_Ikj8"
+    },
+    "contractCancellation": {
+      "bewEnabled": true,
+      "expanded": false,
+      "show_more": "More Contract",
+      "show_less": "Less Contract",
+      "bew_isMandatory": false,
+      "headline": "HedLine For contract Cancellation",
+      "subHeadline": "SubLine For contract Cancellation",
+      "btn1_title": "Button One Title contract",
+      "footer": "This is the footer for contract Cancellation",
+      "ADV_title": "ADV Title contract Cancellation",
+      "DEV_title": "DEV Title contract Cancellation",
+      "bew_image_filename": "https://cdn.vodafone.co.uk/en/assets/images/extralarge/IMG_VeryMe_FestiveBanner.jpg"
+    }
+  },
+  "homeNudge": {
+    "enable": true,
+    "cachingTime": 2160,
+    "offerMboxs": [
+      {
+        "priority": 1,
+        "mboxName": "mbox_mv_app_updateEmailAddress_test2"
+      },
+      {
+        "priority": 2,
+        "mboxName": "mbox_mv_app_updateBEW_test2"
+      }
+    ]
+  },
+  "permanentRedPlusTab": {
+    "btn1_enable": true,
+    "btn1_link": "https://www.vodafone.de/privat/redplus/smartphones-tarife.html?simOnly=1&c_id=app_cadd_fq0_c_redplustab&j_id=AppConPerA01V%7CNonNon000&b_id=1653&void=33333887&forApp=true",
+    "btn1_title": "Online bestellen",
+    "btn2_enable": true,
+    "btn2_link": "08006649395",
+    "btn2_title": "Kostenlos anrufen",
+    "image_filename": "http://media.vodafone.de/www/images/app/mein-callya-100mb/Detail_mein-callya-100mb-0-.jpg"
+  },
+  "targetCaching": {
+    "enable": true,
+    "version": 3,
+    "interval": 1,
+    "prepaidMboxCount": 5,
+    "postpaidMboxCount": 5,
+    "gigaLivePrepaidMboxCount": 10,
+    "gigaLivePostpaidMboxCount": 10,
+    "prepaidDefaultMboxCount": 4,
+    "postpaidDefaultMboxCount": 0,
+    "fixedNetMboxCount": 5,
+    "gigaLiveFixedNetMboxCount": 10,
+    "fixedNetDefaultMboxCount": 4,
+    "cableMboxCount": 10,
+    "gigaLiveCableMboxCount": 10,
+    "cableDefaultMboxCount": 10
+  },
+  "hero": {
+    "enable": true,
+    "version": 1,
+    "cachingtime": 24,
+    "showNextInterval": 1
+  },
+  "vov": {
+    "highPriorityCardTimeSpan": 6,
+    "allCardTimeSpan": 2,
+    "repeatCount": 1,
+    "prepaid": {
+      "numberOfVov": 8,
+      "items": [
+         {
+          "id": "Survey4G",
+          "order": 1,
+          "priority": 8,
+          "mboxName": "",
+          "staticOfferID": "prepaidSurvey4G"
+        },
+        {
+          "id": "100MB",
+          "order": 1,
+          "priority": 8,
+          "mboxName": "",
+          "staticOfferID": "prepaid100MB"
+        },
+         {
+          "id": "Roaming",
+          "order": 1,
+          "priority": 10,
+          "mboxName": "",
+          "staticOfferID": "Roaming"
+        }
+      ]
+    },
+    "postpaid": {
+      "numberOfVov": 10,
+      "items": [
+       {
+          "id": "Survey4G",
+          "order": 1,
+          "priority": 8,
+          "mboxName": "",
+          "staticOfferID": "postpaidSurvey4G"
+        },
+        {
+          "id": "100MB",
+          "order": 2,
+          "priority": 3,
+          "mboxName": "",
+          "staticOfferID": "PAC"
+        },
+        {
+          "id": "PAC",
+          "order": 4,
+          "priority": 7,
+          "mboxName": "",
+          "staticOfferID": "GigaBoost"
+        },
+        {
+          "id": "Roaming",
+          "order": 3,
+          "priority": 6,
+          "mboxName": "",
+          "staticOfferID": "Roaming"
+        },
+         {
+          "id": "Target",
+          "order": 7,
+          "priority": 9,
+          "mboxName": "mbox_mv_app_offer_vov_test2",
+          "staticOfferID": ""
+        }
+      ]
+    },
+    "fixednet": {
+      "items": [
+        {
+          "id": "Welcome",
+          "order": 0,
+          "priority": 10,
+          "staticOfferID": "Welcome"
+        },
+        {
+          "id": "Target",
+          "order": 1,
+          "priority": 9,
+          "mboxName": "mbox_fixednet_app_offer_vov_1",
+          "staticOfferID": ""
+        },
+        {
+          "id": "Target",
+          "order": 2,
+          "priority": 8,
+          "mboxName": "mbox_fixednet_app_offer_vov_2",
+          "staticOfferID": ""
+        },
+        {
+          "id": "Target",
+          "order": 3,
+          "priority": 7,
+          "mboxName": "mbox_fixednet_app_offer_vov_3",
+          "staticOfferID": ""
+        },
+        {
+          "id": "Target",
+          "order": 4,
+          "priority": 6,
+          "mboxName": "mbox_fixednet_app_offer_vov_4",
+          "staticOfferID": ""
+        }
+      ]
+    },
+    "cable": {
+      "items": [
+        {
+          "id": "Welcome",
+          "order": 0,
+          "priority": 10,
+          "staticOfferID": ""
+        },
+        {
+          "id": "Target",
+          "order": 1,
+          "priority": 9,
+          "mboxName": "mbox_cable_app_offer_vov_1",
+          "staticOfferID": ""
+        },
+        {
+          "id": "Target",
+          "order": 2,
+          "priority": 7,
+          "mboxName": "mbox_cable_app_offer_vov_2",
+          "staticOfferID": ""
+        },
+        {
+          "id": "Target",
+          "order": 3,
+          "priority": 8,
+          "mboxName": "mbox_cable_app_offer_vov_3",
+          "staticOfferID": ""
+        },
+        {
+          "id": "Target",
+          "order": 4,
+          "priority": 6,
+          "mboxName": "",
+          "staticOfferID": ""
+        }
+      ]
+    }
+  },
+  "campaigns": [
+    {
+      "vov":  {  "headline_text": "b",
+    "subtitle_text": "d",
+    "color_text": "white",
+    "text_enabled": true,
+    "image_url": "https://a.espncdn.com/photo/2019/0604/r551853_1296x729_16-9.jpg"},
+      "id": "prepaid100MB",
+      "type": "angebote_campaign",
+      "banner_image_filename": "",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "banner_large_image_filename": "https://i2-prod.mirror.co.uk/incoming/article16243072.ece/ALTERNATES/s1200b/0_Tottenham-Hotspur-v-Liverpool-UEFA-Champions-League.jpg",
+   
+      "object": {
+        "title": "Das beste TV-Erlebnis für zuhause und unterwegs − für nur 4,99 € im Monat",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "Das ist GigaTV: bis zu 40 Sender in HD, 62 Sender in SD, persönliche Sender-Empfehlungen, Video on Demand und vieles mehr.<br><br>Als Mobilfunk-Kunde bekommst Du jeden Monat 5 € Rabatt und 5 GB Extra-Datenvolumen. So zahlst Du in den ersten 12 Monaten nur 4,99 €. Und kannst auch unterwegs sorgenfrei streamen.<br><br>Du erreichst uns montags bis freitags von 8 bis 20 Uhr. Und samstags von 9 bis 18 Uhr. ",
+        "image_filename": "http://media.vodafone.de/www/images/app/mcc_3520_gigatv/Detail_gigatv-0-.jpg",
+        "link": "https://www.google.com",
+        "btn1_enable": true,
+        "btn1_link": "080072426625",
+        "btn1_title": "Jetzt kostenlos anrufen",
+        "btn1_type": "call",
+        "btn2_enable": true,
+        "btn2_type": "browser_url_internal",
+        "btn2_link": "https://zuhauseplus.vodafone.de/verfuegbarkeitspruefung/?tab=tv&c_id=app_mcc_3520_5euro_5gb&j_id=AppConPerA01V|NonNon000&b_id=1653&void=33333887&forApp=tru",
+        "btn2_title": "Zum Angebot"
+      },
+      "validityDate": ""
+    },
+    {
+      "vov":  {  "headline_text": "romnin",
+    "subtitle_text": "romnin",
+    "color_text": "white",
+    "text_enabled": true,
+    "image_url": "https://a.espncdn.com/photo/2019/0604/r551853_1296x729_16-9.jpg"},
+      "id": "Roaming",
+      "type": "browser_url_internal",
+      "banner_image_filename": "",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "banner_large_image_filename": "https://i2-prod.mirror.co.uk/incoming/article16243072.ece/ALTERNATES/s1200b/0_Tottenham-Hotspur-v-Liverpool-UEFA-Champions-League.jpg",
+    
+      "object": {
+        "title": "Das beste TV-Erlebnis für zuhause und unterwegs − für nur 4,99 € im Monat",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "Das ist GigaTV: bis zu 40 Sender in HD, 62 Sender in SD, persönliche Sender-Empfehlungen, Video on Demand und vieles mehr.<br><br>Als Mobilfunk-Kunde bekommst Du jeden Monat 5 € Rabatt und 5 GB Extra-Datenvolumen. So zahlst Du in den ersten 12 Monaten nur 4,99 €. Und kannst auch unterwegs sorgenfrei streamen.<br><br>Du erreichst uns montags bis freitags von 8 bis 20 Uhr. Und samstags von 9 bis 18 Uhr. ",
+        "image_filename": "http://media.vodafone.de/www/images/app/mcc_3520_gigatv/Detail_gigatv-0-.jpg",
+        "link": "https://www.google.com",
+        "btn1_enable": true,
+        "btn1_link": "080072426625",
+        "btn1_title": "Jetzt kostenlos anrufen",
+        "btn1_type": "call",
+        "btn2_enable": true,
+        "btn2_type": "browser_url_internal",
+        "btn2_link": "https://zuhauseplus.vodafone.de/verfuegbarkeitspruefung/?tab=tv&c_id=app_mcc_3520_5euro_5gb&j_id=AppConPerA01V|NonNon000&b_id=1653&void=33333887&forApp=tru",
+        "btn2_title": "Zum Angebot"
+      },
+      "validityDate": ""
+    },
+    {
+      "vov":  {  "headline_text": "b",
+    "subtitle_text": "d",
+    "color_text": "white",
+    "text_enabled": true,
+    "image_url": "https://a.espncdn.com/photo/2019/0604/r551853_1296x729_16-9.jpg"},
+      "id": "redPlusAddMember",
+      "type": "angebote_campaign",
+      "banner_image_filename": "",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "banner_large_image_filename": "https://i2-prod.mirror.co.uk/incoming/article16243072.ece/ALTERNATES/s1200b/0_Tottenham-Hotspur-v-Liverpool-UEFA-Champions-League.jpg",
+   
+      "object": {
+        "title": "Das beste TV-Erlebnis für zuhause und unterwegs − für nur 4,99 € im Monat",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "Das ist GigaTV: bis zu 40 Sender in HD, 62 Sender in SD, persönliche Sender-Empfehlungen, Video on Demand und vieles mehr.<br><br>Als Mobilfunk-Kunde bekommst Du jeden Monat 5 € Rabatt und 5 GB Extra-Datenvolumen. So zahlst Du in den ersten 12 Monaten nur 4,99 €. Und kannst auch unterwegs sorgenfrei streamen.<br><br>Du erreichst uns montags bis freitags von 8 bis 20 Uhr. Und samstags von 9 bis 18 Uhr. ",
+        "image_filename": "http://media.vodafone.de/www/images/app/mcc_3520_gigatv/Detail_gigatv-0-.jpg",
+        "link": "",
+        "btn1_enable": true,
+        "btn1_link": "080072426625",
+        "btn1_title": "Jetzt kostenlos anrufen",
+        "btn1_type": "call",
+        "btn2_enable": true,
+        "btn2_type": "browser_url_internal",
+        "btn2_link": "https://zuhauseplus.vodafone.de/verfuegbarkeitspruefung/?tab=tv&c_id=app_mcc_3520_5euro_5gb&j_id=AppConPerA01V|NonNon000&b_id=1653&void=33333887&forApp=tru",
+        "btn2_title": "Zum Angebot"
+      },
+      "validityDate": ""
+    },
+    {
+"vov":  {  "headline_text": "b",
+    "subtitle_text": "d",
+    "color_text": "white",
+    "text_enabled": true,
+    "image_url": "https://a.espncdn.com/photo/2019/0604/r551853_1296x729_16-9.jpg"},
+      "id": "prepaidSurvey4G",
+      "type": "browser_url_internal",
+      "banner_image_filename": "home-vov-survey4g",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "banner_large_image_filename": "https://i2-prod.mirror.co.uk/incoming/article16243072.ece/ALTERNATES/s1200b/0_Tottenham-Hotspur-v-Liverpool-UEFA-Champions-League.jpg",
+ 
+      "object": {
+        "title": "",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "",
+        "image_filename": "",
+        "link": "",
+        "btn1_enable": true,
+        "btn1_link": "",
+        "btn1_title": "",
+        "btn1_type": "",
+        "btn2_enable": true,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": ""
+      },
+      "validityDate": ""
+    },
+    {
+      "vov":  {  "headline_text": "b",
+    "subtitle_text": "d",
+    "color_text": "white",
+    "text_enabled": true,
+    "image_url": "https://a.espncdn.com/photo/2019/0604/r551853_1296x729_16-9.jpg"},
+      "id": "postpaidSurvey4G",
+      "type": "call",
+      "banner_image_filename": "home-vov-survey4g",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "banner_large_image_filename": "https://homepages.cae.wisc.edu/~ece533/images/airplane.png",
+  
+      "object": {
+        "title": "",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "",
+        "image_filename": "",
+        "link": "55555",
+        "btn1_enable": true,
+        "btn1_link": "",
+        "btn1_title": "",
+        "btn1_type": "",
+        "btn2_enable": true,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": ""
+      },
+      "validityDate": ""
+    },
+    {
+      "vov":  {  "headline_text": "b",
+    "subtitle_text": "d",
+    "color_text": "white",
+    "text_enabled": true,
+    "image_url": "https://a.espncdn.com/photo/2019/0604/r551853_1296x729_16-9.jpg"},
+      "id": "postpaid100MB",
+      "type": "angebote_campaign",
+      "banner_image_filename": "vov100MBPostpaid",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "banner_large_image_filename": "https://homepages.cae.wisc.edu/~ece533/images/fruits.png",
+     
+      "object": {
+        "title": "",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "",
+        "image_filename": "",
+        "link": "",
+        "btn1_enable": true,
+        "btn1_link": "",
+        "btn1_title": "",
+        "btn1_type": "",
+        "btn2_enable": true,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": ""
+      },
+      "validityDate": ""
+    },
+    {
+      "vov":  {  "headline_text": "b",
+    "subtitle_text": "d",
+    "color_text": "white",
+    "text_enabled": true,
+    "image_url": "https://a.espncdn.com/photo/2019/0604/r551853_1296x729_16-9.jpg"},
+      "id": "GigaBoost",
+      "type": "browser_url_external",
+      "banner_image_filename": "GigaBoost_vov",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "banner_large_image_filename": "https://i2-prod.mirror.co.uk/incoming/article16243072.ece/ALTERNATES/s1200b/0_Tottenham-Hotspur-v-Liverpool-UEFA-Champions-League.jpg",
+      
+      "object": {
+        "title": "",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "",
+        "image_filename": "",
+        "link": "https://www.google.com",
+        "btn1_enable": true,
+        "btn1_link": "",
+        "btn1_title": "",
+        "btn1_type": "",
+        "btn2_enable": true,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": ""
+      },
+      "validityDate": ""
+    },
+    {
+      "vov":  {  "headline_text": "b",
+    "subtitle_text": "d",
+    "color_text": "white",
+    "text_enabled": true,
+    "image_url": "https://a.espncdn.com/photo/2019/0604/r551853_1296x729_16-9.jpg"},
+      "id": "Redeem_Voucher_ID",
+      "type": "deeplink",
+      "banner_image_filename": "",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "banner_large_image_filename": "https://a.espncdn.com/photo/2019/0604/r551853_1296x729_16-9.jpg",
+     
+      "object": {
+        "title": "",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "",
+        "link": "mvf://home",
+        "image_filename": "",
+        "btn1_enable": true,
+        "btn1_link": "",
+        "btn1_title": "",
+        "btn1_type": "",
+        "btn2_enable": true,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": ""
+      },
+      "validityDate": ""
+    },
+    {
+      "vov":  {  "headline_text": "b",
+    "subtitle_text": "d",
+    "color_text": "white",
+    "text_enabled": true,
+    "image_url": "https://a.espncdn.com/photo/2019/0604/r551853_1296x729_16-9.jpg"},
+      "id": "VVL_ID",
+      "type": "angebote_campaign",
+      "banner_image_filename": "roaming-floating-flag-placeholder",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "banner_large_image_filename": "https://a.espncdn.com/photo/2019/0604/r551853_1296x729_16-9.jpg",
+     
+      "object": {
+        "title": "UCL WINNER",
+        "subtitle_enable": false,
+        "subTitle": "SUB TITLLLLEEEEEE",
+        "text": "liverpool will win Premier League",
+        "image_filename": "https://a.espncdn.com/photo/2019/0604/r551853_1296x729_16-9.jpg",
+        "link": "www.google.com",
+        "btn1_enable": true,
+        "btn1_link": "www.facebook.com",
+        "btn1_title": "confirm",
+        "btn1_type": "",
+        "btn2_enable": true,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": "dissmiss"
+      },
+      "validityDate": ""
+    },
+    {
+      "vov":  {  "headline_text": "b",
+    "subtitle_text": "d",
+    "color_text": "white",
+    "text_enabled": true,
+    "image_url": "https://a.espncdn.com/photo/2019/0604/r551853_1296x729_16-9.jpg"},
+      "id": "PAC",
+      "type": "angebote_campaign",
+      "banner_image_filename": "GigaBoost_vov",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "banner_large_image_filename": "https://a.espncdn.com/photo/2019/0604/r551853_1296x729_16-9.jpg",
+     
+      "object": {
+        "title": "",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "",
+        "image_filename": "",
+        "link": "",
+        "btn1_enable": true,
+        "btn1_link": "",
+        "btn1_title": "",
+        "btn1_type": "",
+        "btn2_enable": true,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": ""
+      },
+      "validityDate": ""
+    },
+    {
+      "vov":  {  "headline_text": "b",
+    "subtitle_text": "d",
+    "color_text": "white",
+    "text_enabled": true,
+    "image_url": "https://a.espncdn.com/photo/2019/0604/r551853_1296x729_16-9.jpg"},
+      "id": "FallBack",
+      "type": "angebote_campaign",
+      "banner_image_filename": "",
+      "default_image_filename": "",
+      "banner_icon_filename": "",
+      "offer_image_filename": "",
+      "gigalive_image_filename": "",
+      "banner_large_image_filename": "http://media.vodafone.de/www/images/app/mcc_3520_gigatv/VoV_gigatv_1-0-.jpg",
+    
+      "object": {
+        "title": "",
+        "subtitle_enable": false,
+        "subTitle": "",
+        "text": "",
+        "image_filename": "",
+        "link": "",
+        "btn1_enable": true,
+        "btn1_link": "",
+        "btn1_title": "",
+        "btn1_type": "",
+        "btn2_enable": true,
+        "btn2_type": "",
+        "btn2_link": "",
+        "btn2_title": ""
+      },
+      "validityDate": ""
+    }
+  ]
+}
