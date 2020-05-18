@@ -4614,7 +4614,7 @@
       "navigationAction": "internalbrowser"
     },
     {
-      "title": "Shopfinder",
+      "title": "Shopfindertest",
       "deeplinkURL": "https://www.vodafone.de/meinvodafone/app/shopfinder",
       "icon": "document_dark",
       "navigationAction": "externalbrowser"
